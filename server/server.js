@@ -11,7 +11,7 @@ app.use(cors());
 // Middleware
 
 app.use(express.static(path.join(__dirname, "../public"))); 
-app.use("/images", express.static(path.join(__dirname, "../public"))
+app.use("/images", express.static(path.join(__dirname, "../images"))
 //app.use(express.static(path.join(__dirname, "../images"))); 
 //dont need because .html
 //app.use("/styles", express.static(path.join(__dirname, "../public/index.css")))
